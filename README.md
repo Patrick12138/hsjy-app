@@ -9,7 +9,7 @@
 
 ## 前台账户
 + admin
-+ admin88
++ admin
 
 ---
 
