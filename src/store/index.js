@@ -29,7 +29,6 @@ const store = new Vuex.Store({
             if (info.data.statusCode == 200) {
                 localStorage.setItem('token', info.data.data.token);
                 store.commit('updateUserInfo', info.data.data.userInfo);
-
             } else if(info.data.statusCode == 401) {
                 /*token失效*/
                 // Vue.prototype.$notify({type:'danger', message:'请登录后在操作！'});
